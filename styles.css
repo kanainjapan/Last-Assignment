@@ -1,3 +1,216 @@
-head {
-  display
+#css-zen-garden {
+  background-image: linear-gradient(to top right, black, black, black, black, #696969, black, black, black, black);
+
+
+  background-color: #000110;
+  background-color: white;
+  background-color: black;
 }
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*header {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: white;
+}
+
+header::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(5deg);
+  z-index: -1;
+} */
+
+header h1 {
+  color: #F8F8FF;
+  color: black;
+  color: white;
+
+
+  font-family: 'Finger Paint', cursive;
+  font-size: 5em;
+  text-align: center;
+}
+
+header h2 {
+  color: white;
+
+  font-family: 'Beth Ellen', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Beth Ellen', cursive;
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 15px;
+}
+
+ul li a {
+  font-family: 'Londrina Sketch', cursive;
+}
+
+.summary {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.summary a {
+  color: white;
+}
+
+.preamble {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.explanation {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.participation {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.participation a {
+  color: white;
+}
+
+.benefits {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.requirements {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.requirements a {
+  color: white;
+}
+
+footer {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-family: 'Londrina Sketch', cursive;
+}
+
+footer a {
+  color: white;
+}
+
+.design-selection {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.design-selection h3 {
+  color: white;
+}
+
+.design-selection nav {
+  color: gray;
+  font-family: 'Londrina Sketch', cursive;
+}
+
+.design-selection ul li a {
+  color: white;
+}
+
+.design-selection ul {
+  list-style-type: none;
+}
+
+.design-archives ul li a {
+  color: white;
+}
+
+.zen-resources {
+  border: solid 1px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.zen-resources h3 {
+  color: white;
+}
+
+.zen-resources ul li a {
+  color: white;
+}
+
+.zen-resources ul {
+  list-style-type: none;
+}
+
+/*.summary {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: white;
+}
+
+.summary::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(-5deg);
+  z-index: -1;
+}
+
+.preamble {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: white;
+  padding: 50px;
+}
+
+.preamble::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: skewY(10deg);
+} */
