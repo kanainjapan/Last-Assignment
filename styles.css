@@ -158,7 +158,7 @@ footer a {
   text-align: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.35);
-  margin: 40%;
+  margin: 0 25%;
 }
 
 .design-selection h3 {
@@ -182,7 +182,7 @@ footer a {
 .design-archives {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.35);
-  margin: 40%;
+  margin: 0 25%;
 }
 
 .design-archives ul {
@@ -196,7 +196,7 @@ footer a {
 .zen-resources {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.35);
-  margin: 40%;
+  margin: 0 25%;
 }
 
 .zen-resources h3 {
