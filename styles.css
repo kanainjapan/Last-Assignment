@@ -1,36 +1,30 @@
-#css-zen-garden {
-  background-image: linear-gradient(to top right, black, black, black, black, #696969, black, black, black, black);
-  background-color: #000110;
-  background-color: white;
-  background-color: black;
-}
-
 * {
   box-sizing: border-box;
   text-decoration: none;
 }
 
-/*header {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  background: white;
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
 }
 
-header::after {
-  position: absolute;
-  width: 100%;
+body {
+  background-image: linear-gradient(to top right, black, black, black, black, #696969, black, black, black, black);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  background-attachment: fixed;
+
   height: 100%;
-  content: '';
-  background: inherit;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin: top left;
-  transform: skewY(5deg);
-  z-index: -1;
-} */
+  /*background-image: url("https://www.kindpng.com/picc/m/4-47701_dying-tree-png-dead-tree-silhouette-png-transparent.png");*/
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
 
 header h1 {
   color: #F8F8FF;
@@ -45,19 +39,27 @@ header h1 {
 
 header h2 {
   color: white;
-
+  font-family: 'Averia Libre', cursive;
   font-family: 'Beth Ellen', cursive;
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 40px;
   text-align: center;
 }
 
 h3 {
   font-family: 'Beth Ellen', cursive;
   font-size: 2em;
+  text-align: center;
+}
+
+h3::first-letter {
+  font-size: 60px;
 }
 
 p {
   font-family: 'Reenie Beanie', cursive;
-  font-size: 15px;
+  font-size: 25px;
+  text-align: left;
 }
 
 ul li a {
@@ -65,9 +67,7 @@ ul li a {
 }
 
 .summary {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
-  border: lightgray solid 2px;
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 .summary a {
@@ -75,18 +75,23 @@ ul li a {
 }
 
 .preamble {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-image: url("https://www.jing.fm/clipimg/full/5-56035_dead-tree-png-png-dead-tree-silhouette-png.png");
+  background-color: rgba(255, 255, 255, 0.35);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: bottom right;
 }
 
 .explanation {
-  text-align: center;
   background-color: rgba(255, 255, 255, 0.35);
 }
 
 .participation {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-image: url("https://www.pngkey.com/png/full/100-1008632_white-tree-silhouette-png.png");
+  background-color: rgba(255, 255, 255, 0.35);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: bottom left;
 }
 
 .participation a {
@@ -95,12 +100,11 @@ ul li a {
 
 .benefits {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 .requirements {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 .requirements a {
@@ -109,7 +113,7 @@ ul li a {
 
 footer {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.35);
   font-family: 'Londrina Sketch', cursive;
 }
 
@@ -120,12 +124,12 @@ footer a {
 .design-selection {
   text-align: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.35);
   padding: 10px;
 }
 
 .design-selection h3 {
-  color: white;
+  color: black;
 }
 
 .design-selection nav {
@@ -141,17 +145,26 @@ footer a {
   list-style-type: none;
 }
 
+.design-archives {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.design-archives ul {
+  list-style-type: none;
+}
+
 .design-archives ul li a {
   color: white;
 }
 
 .zen-resources {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.35);
 }
 
 .zen-resources h3 {
-  color: white;
+  color: black;
 }
 
 .zen-resources ul li a {
@@ -161,52 +174,3 @@ footer a {
 .zen-resources ul {
   list-style-type: none;
 }
-
-.page-wrapper {
-  display: grid;
-}
-
-/*.summary {
-  position: relative;
-  width: 100%;
-  height: 200px;
-  background: white;
-}
-
-.summary::after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content: '';
-  background: inherit;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin: top left;
-  transform: skewY(-5deg);
-  z-index: -1;
-}
-
-.preamble {
-  position: relative;
-  width: 100%;
-  height: 300px;
-  background: white;
-  padding: 50px;
-}
-
-.preamble::after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  content: '';
-  background: inherit;
-  z-index: -1;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform-origin: top left;
-  transform: skewY(10deg);
-} */
